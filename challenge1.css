@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+background-color:rgb(225, 233, 230);
+color: blue; 
+font-size: 15px;
+}
+.rapper{
+margin-top: 20px;
+}
+.page-container{
+   /* display: flex; */
+   min-height: 80vh;
+   justify-content: center;
+   margin-top: 20%;
+   margin-bottom: 20%;
+   align-self: center;
+   margin-top: 10%;
+   align-content: center;
+}
+.sidebar{
+background-color:hsl(31, 77%, 52%);
+  margin-bottom: 10px;
+    Padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    }
+.sidebar1{
+    background-color:hsl(184, 100%, 22%);
+    margin-bottom: 10px;
+    Padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    }
+.sidebar2{
+background-color:hsl(179, 100%, 13%);
+    margin-bottom: 10px;
+     Padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    }
+ .sidebar h1{
+    text-align: left;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+    margin: 150px 0 20px 0;
+    margin-top: 15px;
+    font-family:'Big Shoulders Display',cursive;
+}
+.sidebar p{
+margin-bottom: 10px;
+font-size: 2.1em;
+color:hsla(0, 0%, 100%, 0.75); 
+text-align:left;
+padding: 45px;
+ }
+ /* button styling */
+ .send{
+background-color:rgb(250, 250, 250);
+padding: 10px 20px;
+text-decoration: none;
+color: hsl(31, 85%, 60%);
+font-weight: 300;
+font-size: 1.5em;
+box-ordinal-group:  white;
+width: 100%;
+border: 2px white solid;
+border-radius: 25px;
+align-self:center;
+margin: 150px 0 20px 0;
+ }
+ .send:hover{
+    background-color:hsl(31, 77%, 52%);
+}
+ .sidebar1 h1{
+    text-align:left;
+    font-size: 30px;
+    color: rgb(247, 239, 231);
+    margin: 150px 0 20px 0;
+    margin-top: 15px;
+    font-family:'Big Shoulders Display',cursive;
+}
+.sidebar1 p{
+    margin-bottom: 10px;
+font-size: 2.1em;
+color:hsla(0, 0%, 100%, 0.75); 
+text-align:left;
+padding: 45px;
+     }
+ .send1{
+        background-color:hsla(180, 12%, 94%, 0.993);
+        padding: 10px 20px;
+        text-decoration: none;
+        color: hsl(184, 92%, 66%);
+        font-weight: 300;
+        font-size: 1.5em;
+       border-inline-style:  white ;
+        width: 100%;
+        border-radius: 25px;
+        border: 2px white solid;
+        align-self:center; 
+        margin: 150px 0 20px 0;
+    }
+    .send1:hover{
+        background-color:hsl(184, 100%, 22%);
+        
+    }
+    .sidebar2 h1{
+        text-align: left;
+        font-size: 30px;
+        color: hsl(0, 0%, 95%);
+        margin: 150px 0 20px 0;
+        margin-top: 15px;
+        font-family:'Big Shoulders Display',cursive;
+    }
+    .sidebar2 p{
+        margin-bottom: 10px;
+        font-size: 2.1em;
+        color:hsla(0, 0%, 100%, 0.75); 
+        text-align:left;
+        padding: 45px;
+    }
+    .send2{
+        background-color:hsl(180, 41%, 97%);
+        padding: 10px 20px;
+        text-decoration: none;
+        color: hsl(179, 91%, 50%);
+        font-weight: 300;
+        font-size: 1.5em;
+        border: dashed whitesmoke;
+        width: 100%;
+        border-radius: 25px;
+        border: 2px white solid;
+        align-self:center;
+        margin: 150px 0 20px 0;
+        }
+        .send2:hover{
+            background-color:hsl(179, 100%, 13%);
+        }
+        /* mobile styles */  
+@media only screen and (min-width:378px) and (max-width:425px){
+ 
+    body{
+     font-size: 5px;
+ }
+ .page-container{
+     display: none;
+   justify-content: center;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   padding: 5px;
+   }
+   .sidebar{
+      margin-bottom: 50px;
+      margin-left: 50px;
+     Padding: 10px;
+    width: 150px;
+    align-self: center;
+        }
+ }
+    /* Tablet style  */
+    @media only screen and (min-width:768px)and (max-width:769px){
+     body{
+         font-size: 10px;
+     }
+     .page-container{
+         display:flex;
+    }
+}
+ /* desktop style  */
+ @media only screen and (min-width:1024px){
+
+    body{
+        font-size: 10px;
+    }
+    .page-container{
+        display: flex;
+        min-height: 80vh;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+ }  
+}
